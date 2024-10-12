@@ -1,0 +1,6 @@
+#shows whether icmp request and reply are blocked by firewall in linux
+firewall-cmd --query-icmp-block=echo-request
+firewall-cmd --query-icmp-block=echo-reply
+#shows whether icmp request/reply applies to ipv4 or ipv6 or both in firewalld
+firewall-cmd --info-icmptype=echo-request
+firewall-cmd --info-icmptype=echo-reply
