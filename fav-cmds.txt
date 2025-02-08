@@ -1,0 +1,5 @@
+git config --global user.name "Ashwin Iyengar"
+git config --global user.email "ashwinkiyengar@gmail.com"
+sudo ufw enable
+sudo ufw status numbered
+sudo ufw delete 2
