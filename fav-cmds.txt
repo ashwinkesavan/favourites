@@ -13,4 +13,7 @@ sudo kernelstub --add-options "systemd.show_status=true"
 sudo kernelstub --print-config
 #Saturday 22 Feb 2025 08:37:44 PM JST
 alias date="date +"%A %d %b %Y %T %Z"
-
+#22 Feb 2025 08:42:27 PM JST
+eval $(ssh-agent)
+ssh-add
+---
