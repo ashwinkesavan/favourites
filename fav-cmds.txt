@@ -6,3 +6,10 @@ sudo ufw delete 2
 #to fix snap-store update pending notfication in app center ubuntu 24.04 lts
 #Sunday 16 February 2025 08:18:07 AM JST
 sudo snap refresh snap-store
+
+#22 February 2025 11:00:52 AM JST on pop_os as it does not use grub but systemd-boot and hence below commnds
+sudo kernelstub --delete-options "quiet systemd.show_status=false splash"
+sudo kernelstub --add-options "systemd.show_status=true"
+sudo kernelstub --print-config
+
+
