@@ -24,3 +24,15 @@ ssh-add
 'panel date format' in https://extensions.gnome.org/extension/3465/panel-date-format/ and use the locale setting of '%c'
 #Then you can choose to set the below from bash shell cmd prompt to update the seconds display
 gsettings set org.gnome.desktop.interface show-clock-seconds true
+#Saturday 01 March 2025 01:03:46 PM JST 
+#show week number in panel calendar
+gsettings set org.gnome.desktop.calendar show-weekdate true
+#if you want the gnome panel calendar to start the week in monday instead of the locale en_IN.UTF8 default of sunday, then do the following.
+in file /usr/share/i18n/locales/en_IN
+in the section 
+LC_TIME
+add the below two lines first_weekday and first_workday after week 7.. line
+week 7;19971130;1
+first_weekday 2
+first_workday 2
+END LC_TIME
