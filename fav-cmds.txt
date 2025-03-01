@@ -36,3 +36,7 @@ week 7;19971130;1
 first_weekday 2
 first_workday 2
 END LC_TIME
+===========
+#pacman query for list of installed files from a package
+pacman -Ql package-name
+# 01 Mar 2025 01:51:07 PM JST
