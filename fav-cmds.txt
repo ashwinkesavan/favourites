@@ -40,3 +40,11 @@ END LC_TIME
 #pacman query for list of installed files from a package
 pacman -Ql package-name
 # 01 Mar 2025 01:51:07 PM JST
+============
+#09 Mar 2025 12:38:39 AM JST
+#to change console font size in Linux
+#for ubuntu based systems
+sudo dpkg-reconfigure console-setup
+#for redhat based systems
+sudo dnf reconfigure system-console-setup
+=============
