@@ -48,3 +48,8 @@ sudo dpkg-reconfigure console-setup
 #for redhat based systems
 sudo dnf reconfigure system-console-setup
 =============
+#Sunday 09 March 2025 07:48:09 AM JST
+# Essential shortcut keys in pop (maybe ubuntu also)
+super key + Y = toggle titling and floating windowing scheme.
+super key = launches 'The super cool launcher' in pop. No need to mouse slow clicking. Time to embrace keyboard and ditch mouse.
+============
