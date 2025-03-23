@@ -55,3 +55,8 @@ super key = launches 'The super cool launcher' in pop. No need to mouse slow cli
 ============
 #Sunday 23 March 2025 04:40:49 PM JST
 #oh-my-posh cmd is awesomely cool. Information on it is available at https://ohmyposh.dev/
+#package name to install ohmyposh on msys2 is
+pacman -S mingw-w64-x86_64-oh-my-posh
+#package nerd font required by ohmyposh
+pacman -S mingw-w64-x86_64-nerd-fonts
+#mesloLGM Nerd font is required by posh to display properly
