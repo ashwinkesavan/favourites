@@ -53,3 +53,5 @@ sudo dnf reconfigure system-console-setup
 super key + Y = toggle titling and floating windowing scheme.
 super key = launches 'The super cool launcher' in pop. No need to mouse slow clicking. Time to embrace keyboard and ditch mouse.
 ============
+#Sunday 23 March 2025 04:40:49 PM JST
+#oh-my-posh cmd is awesomely cool. Information on it is available at https://ohmyposh.dev/
