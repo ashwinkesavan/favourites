@@ -62,3 +62,11 @@ pacman -S mingw-w64-x86_64-nerd-fonts
 #mesloLGM Nerd font is required by posh to display properly
 #search for a installed package | Sunday 30 Mar 2025 02:17:06 PM JST
 pacman -Q | grep -i packageName
+-------
+#dpkg for above (Sunday 30 March 2025 03:26:31 PM JST), List all installed pakage without the formatting. In one pkg name per line and you can specify the formatting options optionally.
+dpkg-query -W | grep -i pkgName
+#dpkg for owner package of a installed file.
+dpkg-query -S /home/ashwin/.local/bin/oh-my-posh
+-------
+#there is no easy way for vim to insert shell output without the new line insertion in :r!cmd format. Have to live with this pain (Sunday 30 March 2025 03:27 JST)
+-----
