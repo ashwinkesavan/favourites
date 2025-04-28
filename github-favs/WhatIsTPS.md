@@ -1,0 +1,5 @@
+( continuation of notes in FJ laptop )
+
+**konnyaku stone**: is a process means examine any work-in-progress item for imperfections and flaws. And correct them and again subject to  quality checks till they pass or confirmed that it cannot be passed ( as it is useless).
+**Poka Yoke**: means error-proofing in Japanese. There are 3 types. 1. contact 2. fixed value 3. motion step . Eg.:  washing machine will only work when the door is closed. Preventing water from leaking while washing. It also has a safety lock that ensures the door can’t be opened until the cycle is complete.
+**hansei** : introspect and come up with problem statement. Write down the solution that you agree up and regularly update it to track the progress. Hansei is the intial step towards kaizen (continous improvement). It is accepted that no system is perfect and it is natural to have flaws. Flaws are not on the system or other person but look inwards for what is going wrong and write down a solution that can address this problem and track the progress regularly. There is always room for improvement.

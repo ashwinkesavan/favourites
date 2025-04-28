@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fav-cmds.md",
+                "file": "WhatIsTPS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "fav-cmds"
+              "title": "WhatIsTPS"
             }
           }
         ]
@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Sunday",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +90,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -185,8 +184,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a779558f87f22a06",
+  "active": "8eaea0cd38316268",
   "lastOpenFiles": [
-    "fav-cmds.md"
+    "fav-cmds.md",
+    "WhatIsTPS.md",
+    "desktop.ini"
   ]
 }
