@@ -84,3 +84,7 @@ search for a installed package  *Sunday 30 Mar 2025 02:17:06 PM JST*
 %%there is no easy way for vim to insert shell output without the new line insertion in :r!cmd format. Have to live with this pain%% *(Sunday 30 March 2025 03:27 JST)*
 
 -----
+Saturday 14 June 2025 12:17:42 PM JST
+To see warning and error messages since last boot
+`journalctl --boot -1 -p warning`
+-----
